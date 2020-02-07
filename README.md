@@ -7,6 +7,7 @@
   <li>Done!</li>
 <h2>Option 2</h2>
   <li>Download or build wxWidgets SDK from their <a href="https://www.wxwidgets.org/">official website</a></li>
-  <li>Go to your project Properties -> C++ -> General. Edit the option 'Additional Include Directories'</li>
+  <li>Go to your project Properties -> C/C++ -> General. Edit the option 'Additional Include Directories'. Replace $(WXDIR) with your wxWidgets SDK installation path. This folder is unique for both 32 and 64 bits</li>
+  <li>Then, go to Linker -> General. Edit the option 'Additional Library Directories'. Replace $(WXDIR) with your wxWidgets SDK installation path. Do this for x32 and x64 platforms, as they have different library folders</li>
   <li>Done!</li>
 </ul>
