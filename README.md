@@ -1,4 +1,4 @@
-# wxWidgets-Windows-Application
+# wxWidgets Windows Application
 <h1>Setting up the solution</h1>
 <ul>
 <h2>Option 1 (easier)</h2>
